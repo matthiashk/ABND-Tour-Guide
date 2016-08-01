@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="first_button">Shedd Aquarium</string>
+    <string name="second_button">Art Institute of Chicago</string>
+    <string name="third_button">Field Museum of Natural History</string>
+    <string name="fourth_button">Adler Planetarium</string>
+</resources>
