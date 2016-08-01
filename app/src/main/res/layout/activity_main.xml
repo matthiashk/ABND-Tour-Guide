@@ -11,27 +11,27 @@
 
     <Button
         android:id="@+id/firstButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/first_button"/>
 
     <Button
         android:id="@+id/secondButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/second_button"
         android:layout_below="@id/firstButton"/>
 
     <Button
         android:id="@+id/thirdButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/third_button"
         android:layout_below="@id/secondButton"/>
 
     <Button
         android:id="@+id/fourthButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fourth_button"
         android:layout_below="@id/thirdButton"/>
