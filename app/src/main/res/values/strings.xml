@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">TourGuide</string>
+
     <string name="first_button">Shedd Aquarium</string>
     <string name="second_button">Art Institute of Chicago</string>
     <string name="third_button">Field Museum of Natural History</string>
     <string name="fourth_button">Adler Planetarium</string>
+
+    <string name="shedd_name">Shedd Aquarium</string>
+    <string name="shedd_address">1200 S Lake Shore Dr, Chicago, IL 60605</string>
+    <string name="shedd_schedule">Monday - Sunday: 9AM - 6PM</string>
+    <string name="shedd_description">Shedd Aquarium (formally the John G. Shedd Aquarium) is an indoor public aquarium in Chicago, Illinois in the United States that opened on May 30, 1930. The aquarium contains 32,000 animals,[1] and was for some time the largest indoor aquarium in the world with 5,000,000 US gallons (19,000,000 l; 4,200,000 imp gal) of water. Shedd Aquarium was the first inland aquarium with a permanent saltwater fish collection. It is surrounded by Museum Campus Chicago, which it shares with the Adler Planetarium and the Field Museum of Natural History. The aquarium has 2 million annual visitors; it was the most visited aquarium in the U.S. in 2005, and in 2007, it surpassed the Field Museum as the most popular cultural attraction in Chicago.[8] It contains 1500 species including fish, marine mammals, birds, snakes, amphibians, and insects.[9] The aquarium received awards for best exhibit from the Association of Zoos and Aquariums (AZA) for Seahorse Symphony in 1999, Amazon Rising in 2001, and Wild Reef in 2004.</string>
+
 </resources>
