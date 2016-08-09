@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         secondButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // launch activity
+                Intent artIntent = new Intent(getApplicationContext(), ArtInstituteActivity.class);
+                startActivity(artIntent);
             }
         });
 
