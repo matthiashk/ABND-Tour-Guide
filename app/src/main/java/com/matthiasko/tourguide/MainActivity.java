@@ -13,8 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         Button firstButton = (Button) findViewById(R.id.firstButton);
         Button secondButton = (Button) findViewById(R.id.secondButton);
         Button thirdButton = (Button) findViewById(R.id.thirdButton);
@@ -39,14 +37,16 @@ public class MainActivity extends AppCompatActivity {
         thirdButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // launch activity
+                Intent fieldIntent = new Intent(getApplicationContext(), FieldMuseumActivity.class);
+                startActivity(fieldIntent);
             }
         });
 
         fourthButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // launch activity
+                Intent adlerIntent = new Intent(getApplicationContext(), AdlerActivity.class);
+                startActivity(adlerIntent);
             }
         });
     }
