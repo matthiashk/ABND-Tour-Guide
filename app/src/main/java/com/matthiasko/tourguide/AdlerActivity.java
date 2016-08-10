@@ -22,7 +22,7 @@ public class AdlerActivity extends AppCompatActivity {
         Places sheddAquarium = new Places();
         sheddAquarium.setName(getResources().getString(R.string.adler_name));
         sheddAquarium.setAddress(getResources().getString(R.string.adler_address));
-        Drawable photo = ContextCompat.getDrawable(this, R.drawable.adler_external_640px);
+        Drawable photo = ContextCompat.getDrawable(this, R.drawable.adler);
         sheddAquarium.setPhoto(photo);
         sheddAquarium.setSchedule(getResources().getString(R.string.adler_schedule));
         sheddAquarium.setDescription(getResources().getString(R.string.adler_description));

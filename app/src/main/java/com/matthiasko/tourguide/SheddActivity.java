@@ -22,7 +22,7 @@ public class SheddActivity extends AppCompatActivity {
         Places sheddAquarium = new Places();
         sheddAquarium.setName(getResources().getString(R.string.shedd_name));
         sheddAquarium.setAddress(getResources().getString(R.string.shedd_address));
-        Drawable photo = ContextCompat.getDrawable(this, R.drawable.shedd_aquarium_4635996_500px);
+        Drawable photo = ContextCompat.getDrawable(this, R.drawable.shedd_aquarium);
         sheddAquarium.setPhoto(photo);
         sheddAquarium.setSchedule(getResources().getString(R.string.shedd_schedule));
         sheddAquarium.setDescription(getResources().getString(R.string.shedd_description));

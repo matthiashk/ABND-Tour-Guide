@@ -22,7 +22,7 @@ public class ArtInstituteActivity extends AppCompatActivity {
         Places sheddAquarium = new Places();
         sheddAquarium.setName(getResources().getString(R.string.artinstitute_name));
         sheddAquarium.setAddress(getResources().getString(R.string.artinstitute_address));
-        Drawable photo = ContextCompat.getDrawable(this, R.drawable.art_institute_500);
+        Drawable photo = ContextCompat.getDrawable(this, R.drawable.art_institute);
         sheddAquarium.setPhoto(photo);
         sheddAquarium.setSchedule(getResources().getString(R.string.artinstitute_schedule));
         sheddAquarium.setDescription(getResources().getString(R.string.artinstitute_description));
